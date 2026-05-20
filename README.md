@@ -3,7 +3,16 @@
 ## Current Phase
 JavaScript Foundations
 
-## Week 1
-- [ ] var let const
-- [ ] scope
-- [ ] hoisting
+
+## Day 1 - JavaScript Foundations
+
+### Topics Learned
+- var
+- let
+- const
+- block scope
+- function scope
+- hoisting
+- Temporal Dead Zone (TDZ)
+- variable shadowing
+- reassignment vs mutation
