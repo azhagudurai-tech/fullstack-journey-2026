@@ -88,3 +88,5 @@ console.log(calculate(2, 2, subtract2));
 console.log(calculate(2, 2, multiply2));
 console.log(calculate(2, 2, divide2));
 
+
+

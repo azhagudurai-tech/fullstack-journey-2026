@@ -3,18 +3,9 @@
 ## Current Phase
 JavaScript Foundations
 
-### Day 2 — JavaScript Functions.
-### Topics Learned
-
-- function declarations
-- expressions
-- arrow functions
-- callbacks basics
-- higher-order function basics
-- parameters/arguments
-- implicit return basics
 
 ## Day 1 - JavaScript Foundations
+
 ### Topics Learned
 - var
 - let
@@ -26,3 +17,14 @@ JavaScript Foundations
 - variable shadowing
 - reassignment vs mutation
 
+### Day 2 — JavaScript Functions.
+
+### Topics Learned
+
+- function declarations
+- expressions
+- arrow functions
+- callbacks basics
+- higher-order function basics
+- parameters/arguments
+- implicit return basics
