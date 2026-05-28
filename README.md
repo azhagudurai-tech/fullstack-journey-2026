@@ -28,3 +28,20 @@ JavaScript Foundations
 - higher-order function basics
 - parameters/arguments
 - implicit return basics
+
+### Day 3 — JavaScript Functions.
+
+### Topics Learned
+- Topics Completed
+- Arrays
+- Array indexing
+- push()
+- pop()
+- length
+- for loop basics
+- forEach()
+- map()
+- filter()
+- find()
+- some()
+- every()
