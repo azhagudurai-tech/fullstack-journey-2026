@@ -32,7 +32,6 @@ JavaScript Foundations
 ### Day 3 — JavaScript Functions.
 
 ### Topics Learned
-- Topics Completed
 - Arrays
 - Array indexing
 - push()
@@ -45,3 +44,22 @@ JavaScript Foundations
 - find()
 - some()
 - every()
+
+## Day 4
+- Objects
+- key-value pairs
+- dot notation
+- bracket notation
+- add/update/delete properties
+- nested objects
+- Object.keys()
+- Object.values()
+- Object.entries()
+- for...in loop
+- object iteration
+- dynamic property access
+
+## Day 5
+- Destructuring
+- Spread operator
+- References vs values
