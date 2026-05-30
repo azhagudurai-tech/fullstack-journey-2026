@@ -65,7 +65,7 @@ function getFullName(firstName, lastName) {
 const resname = getFullName('Azhagu', 'Durai');
 console.log(resname);
 
-// Ex C :
+// Ex C : callback
 
 function add2(x, y) {
     return x + y;
