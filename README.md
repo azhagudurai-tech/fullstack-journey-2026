@@ -63,3 +63,12 @@ JavaScript Foundations
 - Destructuring
 - Spread operator
 - References vs values
+
+## Day 6
+- Array Method Chaining
+
+## Day 7
+- Array Reduce
+
+## Day 8 
+- DOM Manipulation
