@@ -72,3 +72,11 @@ JavaScript Foundations
 
 ## Day 8 
 - DOM Manipulation
+
+## Day 9
+- Events
+- Event Listeners
+- Event Object
+- Keyboard Events
+- Form Events
+- Event Bubbling
