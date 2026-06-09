@@ -80,3 +80,9 @@ JavaScript Foundations
 - Keyboard Events
 - Form Events
 - Event Bubbling
+
+## Day 10
+- Asynchronous JavaScript
+- Promises
+- Async / Await
+- Fetch API Fundamentals
