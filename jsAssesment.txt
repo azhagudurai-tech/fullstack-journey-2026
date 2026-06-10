@@ -1,0 +1,202 @@
+# JavaScript Foundation Assessment - Corrected Quick Reference
+
+Q1. var vs let vs const
+
+var:
+
+* Function scoped
+* Can be redeclared
+* Can be reassigned
+
+let:
+
+* Block scoped
+* Cannot be redeclared in same scope
+* Can be reassigned
+
+const:
+
+* Block scoped
+* Cannot be redeclared
+* Cannot be reassigned
+
+Note:
+Objects/arrays declared with const can still have their contents modified.
+
+---
+
+Q4. Temporal Dead Zone (TDZ)
+
+The period between entering a scope and executing the variable declaration line.
+
+Accessing a let/const variable during TDZ causes a ReferenceError.
+
+---
+
+Q7. Scope
+
+Function Scope:
+Variables accessible anywhere inside the function.
+
+Block Scope:
+Variables accessible only inside a block:
+
+{
+let a = 10;
+}
+
+---
+
+Q15. Callback Function
+
+A function passed as an argument to another function.
+
+Example:
+
+function greet() {
+console.log("Hello");
+}
+
+function execute(fn) {
+fn();
+}
+
+execute(greet);
+
+---
+
+Q17. Closure
+
+A closure is a function that remembers variables from its outer scope even after the outer function has finished execution.
+
+---
+
+Q21. Array Methods
+
+map():
+Transforms every element and returns new array.
+
+filter():
+Returns matching elements.
+
+find():
+Returns first matching element.
+
+---
+
+Q25. reduce()
+
+Reduces an array into a single value.
+
+Example:
+sum, count, average, object grouping.
+
+---
+
+Q27. Method Chaining
+
+Calling multiple array methods one after another.
+
+Example:
+
+users
+.filter(user => user.active)
+.map(user => user.name);
+
+---
+
+Q30. Immutability
+
+Do not modify existing data.
+
+Create new data instead.
+
+Bad:
+
+user.name = "Mike";
+
+Good:
+
+const updatedUser = {
+...user,
+name: "Mike"
+};
+
+---
+
+Q32. Primitive vs Reference
+
+Primitive:
+
+let a = 10;
+let b = a;
+
+Copies value.
+
+Reference:
+
+let a = { name: "John" };
+let b = a;
+
+Copies reference.
+
+Both variables point to same object.
+
+---
+
+Q33. Shallow Copy vs Deep Copy
+
+Shallow Copy:
+
+const copy = { ...user };
+
+Top level copied.
+Nested objects still shared.
+
+Deep Copy:
+
+Creates completely independent copy including nested objects.
+
+---
+
+Q47. Queues
+
+Microtask Queue:
+
+* Promise.then()
+* catch()
+* finally()
+
+Callback (Macrotask) Queue:
+
+* setTimeout()
+* setInterval()
+* DOM Events
+
+---
+
+Q49. Event Loop
+
+Continuously checks:
+
+"Is the Call Stack empty?"
+
+If yes:
+
+1. Drain Microtask Queue
+2. Then process Callback Queue
+
+---
+
+Q50. Execution Order
+
+Start
+End
+Promise
+Timer
+
+Reason:
+
+Call Stack
+→ Microtask Queue
+→ Callback Queue
